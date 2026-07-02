@@ -1,0 +1,8 @@
+# Add this block to datasets/datasets.yaml under the most appropriate section.
+# If the file does not already have a neurodegeneration section, this can be added as a new section.
+
+neurodegeneration_longitudinal:
+  - name: ADNI ADNIMERGE + NPI-Q
+    folder: 34_adni_adnimerge_npiq
+    access: Controlled
+    notes: "Longitudinal Alzheimer clinical dataset combining ADNI ADNIMERGE and NPI-Q variables. Suitable for non-IID missing-data imputation benchmarking. Raw participant-level data must not be committed to GitHub."
